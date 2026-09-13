@@ -76,3 +76,9 @@ yarn-error.log
 
 #Roadmap
 ROADMAP.md
+
+
+
+.nx/cache
+.nx/workspace-data
+.nx/migrate-runs
