@@ -13,7 +13,8 @@
     "lint": {
       "executor": "nx:run-script",
       "options": {
-        "script": "lint"
+        "script": "lint",
+        "cwd": "apps/mobile"
       }
     },
     "start": {
