@@ -73,3 +73,12 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+#Roadmap
+ROADMAP.md
+
+
+
+.nx/cache
+.nx/workspace-data
+.nx/migrate-runs

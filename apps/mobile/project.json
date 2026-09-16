@@ -1,0 +1,39 @@
+{
+  "name": "mobile",
+  "sourceRoot": "apps/mobile",
+  "projectType": "application",
+  "targets": {
+    "test": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "test",
+        "cwd": "apps/mobile"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "lint",
+        "cwd": "apps/mobile"
+      }
+    },
+    "start": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "start"
+      }
+    },
+    "android": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "android"
+      }
+    },
+    "ios": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "ios"
+      }
+    }
+  }
+}
